@@ -4,7 +4,7 @@ import { getDatabase, ref, onValue,push,remove} from "https://www.gstatic.com/fi
 
 const myApp=(()=>{
   const appSettings={
-  databaseURL:'https://test-1e629-default-rtdb.europe-west1.firebasedatabase.app/'
+  databaseURL:''
 }
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
