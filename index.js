@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 
 import { getDatabase, ref, onValue,push,remove} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
-alert(';t')
+
 const myApp=(()=>{
   const appSettings={
   databaseURL:'https://test-1e629-default-rtdb.europe-west1.firebasedatabase.app/'
